@@ -21,7 +21,7 @@ const News = () => {
      },[])
 
   return (
-    <div className='fixed z-50 lg:bottom-14 md:bottom-10 top-[40rem] px-6'>
+    <div className='fixed z-50 lg:bottom-14 md:bottom-10 bottom-16 px-6'>
         <button onClick={() => setShowAlert(true)} className='relative border-gray bg-green dark:bg-white border rounded-lg dark:border-green text-whitegray dark:text-green py-2 px-2'>
           <GiNewspaper size={25} className=' duration-700'/>
            <div  className='w-5 h-5 absolute duration-500 animate-spin scale-75 -top-2 -right-1 border-2 border-white bg-carrot rounded-full'></div>

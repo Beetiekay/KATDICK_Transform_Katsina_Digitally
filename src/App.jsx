@@ -42,6 +42,7 @@ export default function App() {
           <Route path="/kdb" element={<Kdb/>}/>
           <Route path="/images" element={<Images/>}/>
           <Route path="/levelup" element={<Ktlevelup/>}/>
+          <Route path="/hackatsina" element={<Hakck/>}/>
           <Route path="/nap" element={<NAP/>}/>
           <Route path="/imao" element={<IMAO/>}/>
           <Route path="/issg" element={<ISSG/>}/>
