@@ -16,7 +16,7 @@ const Upadate = () => {
        <div className='flex justify-center mb-16'><h1 className=' dark:text-white lg:text-3xl md:text-3xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>STAY INFORMED, <span className='text-green'> AS WE SHAPE TOMORROW</span> LEGACY.</h1></div>
 
        <div className='w-[100%] relative'>
-        <div className='dark:bg-black bg-white lg:hidden md:hidden flex w-[100%] h-4 absolute -bottom-1 z-30'></div>
+        <div className='dark:bg-black bg-whitegray lg:hidden md:hidden flex w-[100%] h-4 absolute -bottom-1 z-20'></div>
        <div className='w-full mb-4 lg:overflow-visible md:overflow-visible overflow-x-scroll lg:px-10 md:px-4 px-0 relative'> 
            <div className='lg:w-full md:w-full w-[170vw] p-8 lg:px-10 md:px-8 px-2 lg:gap-10 md:gap-8 gap-4 grid grid-cols-2 group'>
 
@@ -24,9 +24,9 @@ const Upadate = () => {
                 <img src={image1} className='w-full absolute bottom-0 object-cover h-full'/>
                <div className='relative bg-carrot  dark:bg-black dark:bg-opacity-25 bg-opacity-25 z-20 h-[43vh]'>
                 <div>
-                  <img src={image2} className='w-20 relative lg:top-24 md:top-44 top-28 z-10 left-[55%] border-2 border-green rounded-full object-cover'/>
+                  <img src={image2} className='w-20 relative lg:top-24 md:top-44 top-[0.5rem] z-10 lg:left-[55%] md:left-[55%] left-[70%] border-2 border-green rounded-full object-cover'/>
 
-                  <h1 className='lg:text-2xl md:text-2xl text-xl text-green relative lg:top-24 md:top-44 top-24 text-center  font-bold z-10'>I YES KATSINA</h1>
+                  <h1 className='lg:text-2xl md:text-2xl text-xl text-green relative lg:top-24 md:top-44 top-[6.2rem] text-center  font-bold z-10'>I YES KATSINA</h1>
                   <p className='relative dark:opacity-60 dark:text-white z-10 text-sm lg:top-24 md:top-44 top-24 text-center'>Yought Empowerment And Social Transformation In Katsina State.</p>
                   <div className='flex relative lg:top-[6.2rem] md:top-48 top-28 px-6 z-10 justify-center'><button className='outline-none p-2 w-full rounded-xl bg-green text-white'> Apply Now</button></div>
                 </div>

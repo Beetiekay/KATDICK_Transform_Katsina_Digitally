@@ -30,19 +30,19 @@ const Recent = () => {
                 <div className=' p-8 lg:px-10 md:px-8 px-2 lg:gap-10 md:gap-8 gap-4 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 group'>
 
                   {/* I YEs KAtsina */}
-                  <div data-aos="flip-left" className='update relative overflow-hidden h-[43vh] border dark:border-green rounded-2xl hover:scale-105  group-hover:blur-sm  hover:!blur-none duration-700'>
-                    <img src={image1} className='w-full absolute bottom-0 object-cover h-full'/>
-                    <div className='relative bg-carrot  dark:bg-black dark:bg-opacity-25 bg-opacity-25 z-20 h-[43vh]'>
-                     <div>
-                     <img src={image2} className='w-20 relative lg:top-24 md:top-44 top-28 z-10 left-[55%] border-2 border-green rounded-full object-cover'/>
+                  <div className='update relative overflow-hidden h-[43vh] border dark:border-green rounded-2xl hover:scale-105  group-hover:blur-sm  hover:!blur-none duration-700'>
+                <img src={image1} className='w-full absolute bottom-0 object-cover h-full'/>
+               <div className='relative bg-carrot  dark:bg-black dark:bg-opacity-25 bg-opacity-25 z-10 h-[43vh]'>
+                <div>
+                  <img src={image2} className='w-20 relative lg:top-24 md:top-44 top-[0.5rem] z-10 lg:left-[55%] md:left-[55%] left-[70%] border-2 border-green rounded-full object-cover'/>
 
-                     <h1 className='lg:text-2xl md:text-2xl text-xl text-green relative lg:top-24 md:top-44 top-24 text-center  font-bold z-10'>I YES KATSINA</h1>
-                      <p className='relative dark:opacity-60 dark:text-white z-10 text-sm lg:top-24 md:top-44 top-24 text-center'>Yought Empowerment And Social Transformation In Katsina State.</p>
-                     <div className='flex relative lg:top-[6.2rem] md:top-48 top-28 px-6 z-10 justify-center'><button className='outline-none p-2 w-full rounded-xl bg-green text-white'> Apply Now</button></div>
-                   </div>
-                    <img src={down1} className='absolute z-0 w-full dark:hidden h-full left-0 right-0 bottom-0  object-cover'/>
-                     <img src={down2} className='absolute hidden dark:flex z-0 w-full h-full left-0 right-0 bottom-0  object-cover'/>
-                   </div>
+                  <h1 className='lg:text-2xl md:text-2xl text-xl text-green relative lg:top-24 md:top-44 top-[6.2rem] text-center  font-bold z-10'>I YES KATSINA</h1>
+                  <p className='relative dark:opacity-60 dark:text-white z-10 text-sm lg:top-24 md:top-44 top-24 text-center'>Yought Empowerment And Social Transformation In Katsina State.</p>
+                  <div className='flex relative lg:top-[6.2rem] md:top-48 top-28 px-6 z-10 justify-center'><button className='outline-none p-2 w-full rounded-xl bg-green text-white'> Apply Now</button></div>
+                </div>
+                <img src={down1} className='absolute z-0 w-full dark:hidden h-full left-0 right-0 bottom-0  object-cover'/>
+                <img src={down2} className='absolute hidden dark:flex z-0 w-full h-full left-0 right-0 bottom-0  object-cover'/>
+               </div>
                    
                  </div>
 

@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import logo from "../assets/katdict.png";
+import map1 from "../assets/ktmap.png";
+import map2 from "../assets/ktmap1.png";
 import spin from "../assets/dotted.png";
 import katdict from "../assets/kat.png";
 import Marquee from 'react-fast-marquee';
@@ -23,7 +25,10 @@ const Agpopup = () => {
         {
          open &&(
          <div className='w-full h-full flex justify-center transition-all dark:bg-black dark:bg-opacity-35 fixed peer-checked:hidden items-center backdrop-blur-sm top-0 z-50 bg-green bg-opacity-50'>
-          <div data-aos="slide-up" className='lg:w-[24%] md:w-[48%] w-[85%] border-4 dark:bg-opacity-85 dark:border-green dark:bg-black border-white relative py-6 h-fit bg-opacity-80 bg-white rounded-xl p-2'>
+          <div data-aos="slide-up" className='lg:w-[25%] md:w-[48%] w-[85%] h-fit border-4 dark:bg-opacity-85 dark:border-green dark:bg-black border-white relative py-6 bg-opacity-80 bg-white rounded-xl p-2'>
+             <img src={map1} className='dark:hidden lg:w-[50%] md:w-[50%] w-[30%] lg:-top-10 md:-top-10 -top-5 absolute lg:-left-14 md:-left-20 -left-8'/>
+             <img src={map2} className='hidden dark:flex lg:w-[50%] md:w-[50%] w-[30%] lg:-top-10 md:-top-10 -top-5 absolute lg:-left-14 md:-left-20 -left-8'/>
+            <div className='relative'>
             <div onClick={() => setOpen(false)} className='flex justify-end cursor-pointer z-30 transition-transform duration-300 relative'>
             </div>
 
@@ -49,6 +54,7 @@ const Agpopup = () => {
                     <img src={spin} className='lg:w-24 md:w-24 w-20 absolute animate-spin duration-700'/>
                   </div>
             </div>
+           </div>
          </div>
         </div>
          )}
