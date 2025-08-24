@@ -36,7 +36,7 @@ const Navigation = () => {
     <div className='w-[100%] backdrop-blur-2xl bg-green lg:overflow-hidden md:overflow-visible overflow-visible bg-opacity-55 border-b-2 duration-700 ease-in-out transition-all hover:bg-green hover:bg-opacity-100 border-seagreen lg:py-3 md:py-4 py-4 rounded-b-lg  fixed'>
         <img src={bg} className='absolute w-full top-0 opacity-15 lg:flex hidden'/>
 
-        <div className='lg:flex md:flex block lg:justify-around lg:top-0 md:top-0 top-2 md:justify-start items-center relative lg:px-0 md:px-16 px-4 lg:gap-0 md:gap-0 gap-2
+        <div className='lg:flex md:flex block lg:justify-around lg:top-0 md:top-0 top-2 md:justify-start items-center relative z-50 lg:px-0 md:px-16 px-4 lg:gap-0 md:gap-0 gap-2
         '>
          <div className='lg:mb-0 md:mb-0 mb-2'><Logo/></div>
         
