@@ -59,7 +59,7 @@ const Navigation = () => {
 
      {/* mobile hamburger menu */}
       <div className='lg:hidden md:flex flex justify-end lg:px-2 md:px-2 px-0 w-[100%] bg-green overflow-visible absolute'>
-          <input type='checkbox' className='peer transition-transform z-40 w-8 h-8 absolute outline-none opacity-0 cursor-pointer lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-6'/>
+          <input type='checkbox' className='peer transition-transform z-50 w-8 h-8 absolute outline-none opacity-0 cursor-pointer lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-6'/>
           <div data-aos="zoom-in" className='absolute text-[2rem] md:text-[3rem] text-white peer-checked:hidden lg:top-0 md:-top-10 -top-[2.5rem] lg:right-0 md:right-6 right-4'><MdOutlineMenu /></div>
           <div  className='absolute text-[2rem] md:text-[3rem] text-white hidden peer-checked:flex lg:top-0 md:-top-10 -top-[2.5rem] lg:right-0 md:right-6 right-4'><MdOutlineClose/></div>
           <div className='w-[100%] duration-700 ease-in-out transition-all peer-checked:flex hidden bg-opacity-90 reltaive left-0 right-6 top-0'>
